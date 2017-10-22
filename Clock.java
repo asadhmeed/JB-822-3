@@ -116,7 +116,7 @@ public class Clock {
 	}
 
 	public boolean theInputIsValid(int number) {
-		if (number < -1000000000 || number > 1000000000) {
+		if (number < 0 || number > 1000000000) {
 			return false;
 		} else {
 			return true;
