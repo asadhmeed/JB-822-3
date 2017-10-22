@@ -29,11 +29,11 @@ public class RotationCheck {
 		int tempFirstNumber = firstNumber;
 		int tempSecondNumber = secondNumber;
 		while (tempFirstNumber != 0 && tempSecondNumber != 0) {
-			if (tempFirstNumber % 10 != 0) {
+			if (tempFirstNumber > 0) {
 				firstNumberDigitCount++;
 				tempFirstNumber = tempFirstNumber / 10;
 			}
-			if (tempSecondNumber % 10 != 0) {
+			if (tempSecondNumber > 0) {
 				secondNumberDigitCount++;
 				tempSecondNumber = tempSecondNumber / 10;
 			}
